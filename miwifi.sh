@@ -33,7 +33,7 @@ if [ "${num}" == "2" ]
 then
 cd /tmp
 rm -rf *_ss.sh
-wget hhttp://7xo6sw.com1.z0.glb.clouddn.com/r2d_uninstall.sh
+wget http://7xo6sw.com1.z0.glb.clouddn.com/r2d_uninstall.sh
 chmod -R 777 r2d_uninstall.sh
 ./r2d_uninstall.sh
 fi
@@ -60,7 +60,7 @@ if [ "${num}" == "5" ]
 then
 cd /tmp
 rm -rf *_ss.sh
-wget https://raw.githubusercontent.com/Chyi341152/xmr3ss/master/r3_ss.sh
+curl -O https://raw.githubusercontent.com/Chyi341152/xmr3ss/master/r3_ss.sh
 chmod -R 777 r3_ss.sh
 ./r3_ss.sh
 fi
