@@ -21,6 +21,7 @@ XiaoMi Router 3 Information
 
 Open SSH
 * [Open SSH](https://d.miwifi.com/rom/ssh/) - Open SSH, login XiaoMi account,Check the root password and remember.
+![root@password](https://github.com/chyidl/xmr3ss/blob/master/imgs/root@password.png)
 
 ```text
 	1. Please copy the downloaded tool bin file to the root directory of the U disk (FAT/FAT32 format) to ensure that the file name is miwifi_ssh.bin.
