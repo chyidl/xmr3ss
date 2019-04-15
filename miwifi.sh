@@ -60,7 +60,7 @@ if [ "${num}" == "5" ]
 then
 cd /tmp
 rm -rf *_ss.sh
-curl -O https://raw.githubusercontent.com/Chyi341152/xmr3ss/master/r3_ss.sh
+curl -O https://raw.githubusercontent.com/chyidl/xmr3ss/master/r3_ss.sh
 chmod -R 777 r3_ss.sh
 ./r3_ss.sh
 fi
@@ -69,7 +69,7 @@ if [ "${num}" == "6" ]
 then
 cd /tmp
 rm -rf *_uninstall.sh
-wget https://raw.githubusercontent.com/Chyi341152/xmr3ss/master/r3_uninstall.sh
+curl -O https://raw.githubusercontent.com/chyidl/xmr3ss/master/r3_uninstall.sh
 chmod -R 777 r3_uninstall.sh
 sh ./r3_uninstall.sh
 fi
